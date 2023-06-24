@@ -47,6 +47,9 @@ function start() {
 
 function reset() {
 
+    let confirmDel = confirm('Are you sure you want to reset the timer?');
+    if(!confirmDel) return;
+    
     clearInterval(int);
     int = null;
     seconds = 0;
