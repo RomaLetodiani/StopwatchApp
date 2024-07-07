@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stopwatch App</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/3c2707063d.js" crossorigin="anonymous"></script>
-    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
-    <link rel="manifest" href="icon/site.webmanifest">
-</head>
-<body>
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png" />
+    <link rel="manifest" href="icon/site.webmanifest" />
+  </head>
+  <body>
     <section id="background">
-        <div class="content">
-            <div class="stopwatch">
-                <div class="reset">
-                    <h3>RESET</h3>
-                    <i class="fa-solid fa-arrow-down"></i>
-                    <div>
-                        <div class="upper-rec"></div>
-                        <div class="down-rec"></div>
-                    </div>
-                </div>
-                <div class="start">
-                    <h3>START</h3>
-                    <i class="fa-solid fa-arrow-down"></i>
-                    <div class="startbtn"></div>
-                </div>
-                <div class="outer-circle">
-                    <div class="inner-circle">
-                        <div class="glass-shadow"></div>
-                        <div class="glass-shadow-jr"></div>
-                        <div class="timer"></div>
-                    </div>
-                </div>
+      <div class="content">
+        <div class="stopwatch">
+          <div class="reset">
+            <h3>RESET</h3>
+            <i class="fa-solid fa-arrow-down"></i>
+            <div>
+              <div class="upper-rec"></div>
+              <div class="down-rec"></div>
             </div>
+          </div>
+          <div class="start">
+            <h3>START</h3>
+            <i class="fa-solid fa-arrow-down"></i>
+            <div class="startbtn"></div>
+          </div>
+          <div class="outer-circle">
+            <div class="inner-circle">
+              <div class="glass-shadow"></div>
+              <div class="glass-shadow-jr"></div>
+              <div class="timer">
+                <p class="minutes">00</p>
+                <span>:</span>
+                <p class="seconds">00</p>
+                <span>:</span>
+                <p class="tens">00</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
